@@ -1,0 +1,11 @@
+{
+  "name": "mexc-node-workspace",
+  "private": true,
+  "workspaces": [
+    "common",
+    "clients/spot",
+    "clients/broker",
+    "clients/p2p",
+    "clients/futures"
+  ]
+}

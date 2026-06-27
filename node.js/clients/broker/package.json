@@ -1,0 +1,18 @@
+{
+  "name": "mexc-broker-sdk",
+  "version": "2.0.0",
+  "description": "MEXC Broker OpenAPI SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"new (require('./src').MexcBroker)(); console.log('OK');\"",
+    "example:list": "node examples/QuerySubAccountList.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.0",
+    "mexc-common": "*"
+  }
+}

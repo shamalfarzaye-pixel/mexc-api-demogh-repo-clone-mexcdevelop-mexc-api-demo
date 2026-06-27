@@ -1,0 +1,20 @@
+{
+  "name": "mexc-p2p-sdk",
+  "version": "2.0.0",
+  "description": "MEXC P2P OpenAPI SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"new (require('./src').MexcP2P)(); console.log('OK');\"",
+    "example:order": "node examples/GetOrderDetail.js",
+    "example:ws": "node examples/WsChat.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.0",
+    "mexc-common": "*",
+    "ws": "^8.21.0"
+  }
+}
